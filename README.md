@@ -1,6 +1,6 @@
 # 💍 Wedding Invitation A - Ana & Bruno
 
-## Elegant Navy & Gold Theme
+## Elegant White, Black & Gold Theme
 
 Una invitación de boda elegante con tema azul marino y dorado, creada con tecnologías web modernas.
 
