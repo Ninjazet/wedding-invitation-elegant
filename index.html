@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana & Bruno - Nuestra Boda</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="preload">
+    <!-- Envelope Animation -->
+    <div class="envelope-overlay" id="envelopeOverlay">
+        <div class="envelope-container">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800" alt="Sobre de invitación" class="envelope-img" id="envelopeImg">
+            <div class="wax-seal" id="waxSeal">
+                <img src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-golden-wax-seal-png-image_5683641.png" alt="Sello de cera" class="seal-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="mainContent" style="opacity: 0;">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="floral-border"></div>
+            <div class="content">
+                <h1>Ana & Bruno</h1>
+                <h2>Nos Casamos</h2>
+                <p>15 de Junio 2026</p>
+                <div class="rings-animation">
+                    <i class="fas fa-ring"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-ring"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Section -->
+        <section class="countdown-section">
+            <div class="section">
+                <h2 class="countdown-header">Cuenta Regresiva</h2>
+                <div class="countdown">
+                    <div class="countdown-items" id="countdown">
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="days">--</div>
+                            <div class="countdown-label">Días</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="hours">--</div>
+                            <div class="countdown-label">Horas</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="minutes">--</div>
+                            <div class="countdown-label">Minutos</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="seconds">--</div>
+                            <div class="countdown-label">Segundos</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="countdown-footer">Hasta el gran día</div>
+            </div>
+        </section>
+
+        <!-- Event Details -->
+        <section class="section">
+            <h2 class="section-title">Detalles del Evento</h2>
+            <div class="details-grid">
+                <div class="detail-card animate">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Fecha y Hora</h3>
+                    <p>15 de junio 2026</p>
+                    <p>04:00 PM</p>
+                </div>
+                <div class="detail-card animate">
+                    <i class="fas fa-church"></i>
+                    <h3>Ceremonia</h3>
+                    <p>Iglesia San Miguel</p>
+                    <p>Av. Principal 123</p>
+                </div>
+                <div class="detail-card animate">
+                    <i class="fas fa-champagne-glasses"></i>
+                    <h3>Recepción</h3>
+                    <p>Salón de Eventos Aurora</p>
+                    <p>Calle de las Rosas 456</p>
+                </div>
+                <div class="detail-card animate">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Celebración</h3>
+                    <p>Cena y Baile</p>
+                    <p>07:00 PM - 02:00 AM</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Story -->
+        <section class="section story-section">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="story-content">
+                <p>Todo comenzó hace 5 años cuando nos conocimos en la universidad. Lo que empezó como una amistad se convirtió en el amor más profundo de nuestras vidas.</p>
+                <p>Después de tantas aventuras juntos, decidimos dar el siguiente paso y unir nuestras vidas para siempre.</p>
+                <p>Queremos compartir este momento tan especial contigo, porque eres parte importante de nuestra historia.</p>
+            </div>
+        </section>
+
+        <!-- Dress Code -->
+        <section class="dress-code">
+            <div class="section">
+                <h2 class="section-title">Código de Vestimenta</h2>
+                <p class="dress-instructions">Formal / Cocktail</p>
+                <p class="recommended-color-text">Colores recomendados: azul marino, verde esmeralda, burgundy</p>
+                <div class="color-restriction">
+                    Por favor evita usar blanco, marfil o beige
+                </div>
+                <p class="additional-note">Queremos que te sientas cómodo y elegante</p>
+            </div>
+        </section>
+
+        <!-- Location -->
+        <section class="section location-section">
+            <h2 class="section-title">Ubicación</h2>
+            <div class="navigation-buttons compact">
+                <a href="https://maps.google.com/?q=Iglesia+San+Miguel" class="map-button" target="_blank">
+                    <div class="button-content">
+                        <i class="fas fa-church"></i>
+                        <div class="button-text">
+                            <div class="main-text">Ver en Maps</div>
+                            <div class="sub-text">Ceremonia</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://maps.google.com/?q=Salon+de+Eventos+Aurora" class="map-button" target="_blank">
+                    <div class="button-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="button-text">
+                            <div class="main-text">Ver en Maps</div>
+                            <div class="sub-text">Recepción</div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="map-container elegant">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.6742249415817!2d-99.16874608562394!3d19.42648568690264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92ac7cc1c05%3A0x9b94d1b9b7a8e3b!2sCatedral%20Metropolitana!5e0!3m2!1sen!2smx!4v1616161616161!5m2!1sen!2smx" width="100%" height="100%" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section class="section">
+            <h2 class="section-title">Confirma tu Asistencia</h2>
+            <div style="text-align: center;">
+                <button class="nav-button" onclick="openRSVP()">
+                    <i class="fas fa-envelope"></i>
+                    Confirmar Asistencia
+                </button>
+            </div>
+        </section>
+
+        <!-- Gift Section -->
+        <section class="gift-section">
+            <div class="envelope-rain"></div>
+            <div class="section">
+                <h2 class="section-title">Regalos</h2>
+                <p class="gift-message">
+                    Tu presencia es el mejor regalo que podríamos pedir. Si deseas obsequiarnos algo,
+                    hemos preparado una mesa de regalos o puedes contribuir a nuestro viaje de luna de miel.
+                </p>
+                <div class="navigation-buttons" style="margin-top: 30px;">
+                    <a href="#" class="nav-button">
+                        <i class="fas fa-gift"></i>
+                        Mesa de Regalos
+                    </a>
+                    <a href="#" class="nav-button">
+                        <i class="fas fa-plane"></i>
+                        Luna de Miel
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="section">
+                <h3>Ana & Bruno</h3>
+                <p>15 de Junio 2026</p>
+                <p>"Donde hay amor, hay vida" - Mahatma Gandhi</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- RSVP Modal -->
+    <div class="rsvp-modal" id="rsvpModal">
+        <div class="rsvp-content">
+            <span class="close" onclick="closeRSVP()">&times;</span>
+            <h2 style="color: var(--verde-oliva); text-align: center; margin-bottom: 20px;">Confirma tu Asistencia</h2>
+            
+            <form id="rsvpForm">
+                <div class="form-group">
+                    <label>Nombre Completo:</label>
+                    <input type="text" class="form-input" id="guestName" required>
+                    <div class="error-message" id="nameError">Por favor ingresa tu nombre completo</div>
+                </div>
+                
+                <div class="form-group">
+                    <label>¿Confirmas tu asistencia?</label>
+                    <select class="form-input" id="attendance" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="si">Sí, asistiré con mucho gusto</option>
+                        <option value="no">No podré asistir</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" id="guestCountGroup" style="display: none;">
+                    <label>¿Cuántas personas asistirán?</label>
+                    <select class="form-input" id="guestCount">
+                        <option value="1">Solo yo</option>
+                        <option value="2">2 personas (pareja)</option>
+                        <option value="3">3 personas (familia)</option>
+                        <option value="4">4+ personas</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Mensaje especial (opcional):</label>
+                    <textarea class="form-input" id="message" rows="3" placeholder="Comparte tus buenos deseos..."></textarea>
+                </div>
+                
+                <div style="text-align: center;">
+                    <button type="submit" class="nav-button">
+                        <i class="fas fa-heart"></i>
+                        Confirmar
+                    </button>
+                </div>
+            </form>
+            
+            <div class="form-message" id="responseMessage" style="display: none;"></div>
+        </div>
+    </div>
+
+    <!-- Guest Alert -->
+    <div class="guest-alert" id="guestAlert">
+        <div class="alert-content">
+            <i class="fas fa-heart"></i>
+            <div id="alertText">¡Esperamos verte en nuestra boda!</div>
+        </div>
+    </div>
+
+    <!-- Music Button -->
+    <button id="musicButton" onclick="toggleMusic()">
+        <i class="fas fa-music" id="musicIcon"></i>
+        <span id="musicText">Música</span>
+    </button>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
